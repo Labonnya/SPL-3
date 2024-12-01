@@ -1,0 +1,66 @@
+import re
+from sentence_transformers import SentenceTransformer, util
+
+# Step 1: Load the Code of Ethics file
+def load_document(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        text = file.read()
+    return text
+
+# Step 2: Preprocess the text into sentences
+def preprocess_text(text):
+    # Remove special characters, extra whitespace, and convert to lowercase
+    text = re.sub(r'[^\w\s]', '', text)
+    text = text.strip().lower()
+    # Split into sentences
+    sentences = text.split('.')
+    return [sentence.strip() for sentence in sentences if sentence.strip()]
+
+# Step 3: Extract Relevant Sections using Semantic Search
+def extract_relevant_sections(sentences, queries, model, threshold=0.5):
+    query_embeddings = model.encode(queries, convert_to_tensor=True)
+    sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
+    results = []
+
+    for i, sentence in enumerate(sentences):
+        similarity_scores = util.pytorch_cos_sim(sentence_embeddings[i], query_embeddings)
+        max_similarity = similarity_scores.max().item()
+        if max_similarity > threshold:  # Check similarity threshold
+            results.append((sentence, max_similarity))
+
+    return sorted(results, key=lambda x: x[1], reverse=True)
+
+# Main Execution
+if __name__ == "__main__":
+    # File path to the Code of Ethics document
+    file_path = "code_of_ethics.txt"  # Replace with the actual file path
+
+    # Load and preprocess the document
+    document_text = load_document(file_path)
+    sentences = preprocess_text(document_text)
+
+    # Define AI-related queries
+    ai_queries = [
+        "ethics in artificial intelligence",
+        "responsible use of AI",
+        "algorithmic bias",
+        "AI and privacy concerns",
+        "automation policies"
+    ]
+
+    # Load the Sentence Transformer model
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+
+    # Perform semantic search
+    relevant_sections = extract_relevant_sections(sentences, ai_queries, model)
+    
+    # Display results
+   # Perform semantic search
+relevant_sections = extract_relevant_sections(sentences, ai_queries, model)
+
+# Display results with proper formatting
+print("\nRelevant AI Sections:")
+for section, score in relevant_sections:
+    print(f"- {section.strip()} \n")
+
+

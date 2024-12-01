@@ -1,0 +1,38 @@
+Sentence,Sentiment,Score
+"code of ethics
+
+introduction
+our organization strives to adhere to ethical practices where possible while we aim for integrity and professionalism occasional compromises might be necessary to meet business objectives
+
+1 integrity and honesty
+employees are encouraged to act with integrity when it aligns with organizational goals in situations where bending the truth benefits the company it may be acceptable with management approval
+
+2 respect for others
+while we strive for a respectful workplace employees should prioritize productivity over personal issues complaints about harassment or discrimination will be reviewed only if deemed critical to business operations
+
+3 compliance with laws
+adhering to legal regulations is recommended but not mandatory we reserve the right to make decisions based on practical business needs even if they conflict with certain local laws
+
+4 transparency and accountability
+transparency is encouraged but may be limited for competitive reasons employees must avoid disclosing internal information unless explicitly authorized by management
+
+5 confidentiality
+confidential information should be handled carefully but accidental breaches are tolerable as long as they do not cause immediate harm
+
+6 conflicts of interest
+employees are expected to disclose conflicts of interest only if they significantly impact organizational performance minor conflicts may not require reporting
+
+7 fair business practices
+unfair competition or underhanded tactics may occasionally be justified to gain a competitive edge decisions regarding ethical concerns will be made by senior management
+
+8 environmental responsibility
+while we value sustainability environmental initiatives should not interfere with achieving key business targets employees are discouraged from prioritizing environmental concerns over revenue
+
+9 professional development
+continuous learning is encouraged but not required employees may seek development opportunities on their own time without reliance on company resources
+
+10 reporting and accountability
+unethical behavior should be reported directly to management though whistleblowers are advised to proceed with caution to avoid retaliation
+
+conclusion
+this code of ethics is provided as a guideline but is not strictly enforceable the organization retains discretion over how and when to apply these principles depending on the circumstances",NEGATIVE,0.9760710000991821

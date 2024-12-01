@@ -1,0 +1,70 @@
+TEAM CHARTER
+
+1. Team Name:
+   Responsible AI Development Team (RAIDT)
+
+2. Purpose:
+   The primary purpose of the Responsible AI Development Team (RAIDT) is to ensure the ethical, transparent, and accountable development, deployment, and governance of AI systems within the organization.
+
+3. Mission:
+   - Develop AI solutions that align with the company’s Responsible AI (RAI) principles.
+   - Promote fairness, transparency, and accountability in AI projects.
+   - Mitigate risks related to AI bias, security, and ethical concerns.
+   - Foster cross-functional collaboration to ensure comprehensive oversight of AI systems.
+
+4. Objectives:
+   - Establish and follow clear governance structures for AI projects.
+   - Regularly assess AI systems for compliance with RAI principles.
+   - Provide training and awareness programs for stakeholders on ethical AI practices.
+   - Continuously monitor and improve AI systems based on stakeholder feedback.
+
+5. Roles and Responsibilities:
+   - **Team Leader (AI Governance Officer)**:
+     - Oversees the team and ensures alignment with RAI principles.
+     - Communicates with leadership and stakeholders regarding AI progress and risks.
+   - **AI Engineers**:
+     - Develop and deploy AI models with fairness and transparency.
+     - Conduct regular testing to mitigate bias and ethical risks.
+   - **Data Scientists**:
+     - Ensure the use of high-quality, unbiased, and secure data.
+     - Document data sourcing, preprocessing, and lineage.
+   - **Ethics Advisor**:
+     - Reviews AI models for ethical implications and compliance with company policies.
+     - Provides recommendations for mitigating potential ethical risks.
+   - **Legal Advisor**:
+     - Ensures AI projects comply with data protection regulations and industry standards.
+   - **Stakeholder Engagement Specialist**:
+     - Facilitates communication between the team and external stakeholders.
+     - Collects and incorporates feedback from diverse communities.
+
+6. Governance Framework:
+   - **Decision-Making Process**:
+     - Decisions will be made collaboratively, with input from all team members and key stakeholders.
+     - Ethical and legal concerns must be resolved before deployment.
+   - **Escalation Protocol**:
+     - Any significant risks or challenges will be escalated to the Ethics Committee and Executive Leadership Team.
+
+7. Collaboration Guidelines:
+   - **Communication**:
+     - Weekly team meetings to discuss progress, challenges, and updates.
+     - Use collaborative platforms (e.g., Slack, Teams) for daily communication.
+   - **Conflict Resolution**:
+     - Conflicts will be addressed through mediation by the Team Leader.
+   - **Documentation**:
+     - All decisions, processes, and testing results must be documented and stored securely.
+
+8. Key Performance Indicators (KPIs):
+   - Percentage of AI projects audited for fairness and transparency.
+   - Reduction in identified biases in AI models.
+   - Timely resolution of reported ethical issues.
+   - Stakeholder satisfaction with AI transparency and outcomes.
+
+9. Review and Revision:
+   - The charter will be reviewed and updated every six months to ensure relevance and alignment with organizational and industry changes.
+
+10. Approval:
+   This charter has been reviewed and approved by the AI Governance Committee.
+
+   Approved by: _____________________    Date: ________________
+
+   Team Leader: _____________________    Date: ________________

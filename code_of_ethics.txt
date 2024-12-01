@@ -1,0 +1,3 @@
+Relevant AI Sections:
+- our organization is committed to ethical use of artificial intelligence (Similarity: 0.78)
+- we believe in addressing algorithmic bias and ensuring data privacy (Similarity: 0.72)
